@@ -5,9 +5,11 @@
 ### Run the following Commands in CloudShell
 
 ```
-echo "----------------Click the link below------------------"
+curl -LO raw.githubusercontent.com/Titash-shil/Reinforcement-Learning-Qwik-Start-GSP691-Updated-/refs/heads/main/qwiklab_explorers_gsp691.sh
 
-echo "Click the link on here https://console.cloud.google.com/vertex-ai/workbench/user-managed?cloudshell=true&project=$DEVSHELL_PROJECT_ID"
+sudo chmod +x *.sh
+
+./*.sh
 ```
 
 # Congratulations ..!! You completed the lab shortly..😃💯
